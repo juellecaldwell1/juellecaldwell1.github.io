@@ -1,0 +1,23 @@
+
+ul{
+list-style-type: none;
+display: flex;
+padding: 20px;
+gap: 50px;
+}
+a{
+color: white;
+text-decoration: none;
+font-size: xx-large;
+font-family: Arial;
+text-shadow: 60px;
+font: bold;
+}
+.contactme a {
+color: black;
+font: normal;
+font-size: normal;
+}
+.list{
+list-style-type: decimal;
+}
