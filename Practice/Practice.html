@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <a href="Practice2.html" id="page2link">Click to go to page 2</a>
+  <script src="practice.js"></script>
+
+
+  <script>
+  
+
+
+    let event_handler = function(evt) {
+      evt.preventDefault();
+    let age = prompt("Enter your age");
+    if (age >= 18){
+     window.location.href = "practice2.html";
+    }else{
+      window.location.href = "minors.html";
+
+
+
+    };
+  };
+document.getElementById("page2link").onclick = event_handler;
+
+
+  </script>
+</body>
+</html>

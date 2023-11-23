@@ -1,0 +1,183 @@
+ul{
+  list-style-type: none;
+  display: flex;
+  padding: 20px;
+  gap: 50px;
+  }
+  a{
+  color: white;
+  text-decoration: none;
+  font-size: xx-large;
+  font-family: Arial;
+  text-shadow: 60px;
+  font: bold;
+  }
+  .contactme a {
+  color: black;
+  font: normal;
+  font-size: normal;
+  }
+  .list{
+  list-style-type: decimal;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('me.jpg');
+    background-size: cover;
+    background-position: center;
+    color: yellow;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: white !important;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #17a2b8 !important;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+h1 {
+    color: black;
+}
+
+p {
+    line-height: 1.6;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    color: red;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    
+    text-align: right;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: ;
+    margin: 0 10px;
+}
+
+footer i {
+    font-size: 24px;
+}
+
+.center-text {
+    text-align: center;
+    text-decoration: wavy;
+    color: black;
+    background-color: red;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.custom-header {
+    background-image: url(https://wallpapercave.com/wp/wp5777234.jpg);
+    color: white;
+    padding: 20px;
+    background-size: cover;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+    font-family: 'YourFont', ;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.sidenav {
+height: 100%;
+width: 160px;
+position: fixed;
+z-index: 1;
+
+left: 0;
+background-color: black;
+overflow-x: hidden;
+padding-top: 20px;
+margin-top: 50px;
+}
+
+.sidenav a {
+padding: 6px 8px 6px 16px;
+font-size: 25px;
+color: white;
+display: block;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.main {
+margin-left: 160px;
+margin-top: 50px;
+font-size: 28px; 
+padding: 0px 10px;
+}
+.sidenav img{
+border-radius: 0;
+width: 150px;
+height: 150px;
+} 
+.foot{
+display: flex;
+justify-content: space-between;
+}
