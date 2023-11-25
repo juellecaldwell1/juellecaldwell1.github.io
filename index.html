@@ -5,8 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Juelles Web Portfolio</title>
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Popper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="buinesslogo.jpg" type="image/x-icon">
 </head>
@@ -16,7 +28,7 @@
     <header class="custom-header">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.html"><img src="buinesslogo.jpg" alt=""></a>
+                <a class="navbar-brand" href="index.html"><img src="buinesslogo.jpg" alt="business"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,67 +40,126 @@
                         <li class="nav-item"><a class="nav-link" href="resume.html">Contact</a></li>
                         <li class="nav-item"><a class="nav-link" href="coursework.html">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                        <br>
+                        <br>
                     </ul>
                 </div>
             </div>
         </nav>
-    </header>
-
-    <div class="sidenav">
-        <img src="fpfpic.jpg" alt="Me">
-        <a href="">My Life</a>
-        <a href="">Services</a>
-        <a href="">Clients</a>
-        <a href="">Contact</a>
-    </div>
-    
-
-    <section id="about">
-        <div class="center-text">
-            <h2>About Me</h2>
-            <p>
-            
-            </p>
+        <div class="pichome">
+            <a href="https://insideranken.org/ics" target="_blank"><img src="rankenimg.jpeg" alt="mySchool"></a>
         </div>
-    </section>
+        <aside class="right-sidebar">
+            <img src="webdevpic.jpeg" alt="Your Image">
+            <a href="#about">About</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#ViewProjects">View Projects</a>
+            <a href="#coursework">Coursework</a>
+            <a href="#form">Contact Form</a>
+        </aside>
+    
+    </header>
+    <main>
+        <div class="sidenav">
+            <img src="fpfpic.jpg" alt="Me">
+            <h2>Status:</h2>
+            <h4>Ranken Student</h4>
+        </div>
 
-    <section id="projects">
-        <div class="center-text">
-            <h2></h2>
-            <p>
-              
+        <section id="about">
+            <div class="center-text">
+                <h2>About Me</h2>
+                <p> Hello and my name is Juelle Caldwell and right now im a starter and noob Web Developer i just
+                    started interacting with interesting languages like HTML, CSS, and Javascript Welcome to my Page.
+                </p>
+            </div>
+        </section>
+
+        <section id="achievements">
+            <div class="center-text">
+                <h2>Achievements</h2>
+                <p>
+
+                    <ul>
+                        <li><img src="mecongrats.jpg" alt="graduating"></li>
+                        <li>My biggest achievements is actually graduating highschool for right now but im actually
+                            going for a job to work for a big company like wwt and ect</li>
+                        <li></li>
+                    </ul>
+                </p>
+            </div>
+        </section>
+
+        <section id="Blank_1">
+            <div class="center-text">
+            </div>
+        </section>
+
+        <section id="ViewProjects">
+            <div class="center-text">
+                <h2>View my Projects</h2>
                 <ul>
-                    <li></li>
-                    <li></li>
+                    <li><img src="me2.jpg" alt=""></li>
+                    <li>See the projects im working on click my projects page</li>
                     <li></li>
                 </ul>
-            </p>
-        </div>
-    </section>
+            </div>
+        </section>
 
-    <section id="contact">
-        <div class="center-text">
-            <h2>Contact</h2>
-            <p>
-                Feel free to contact me via email at <a href="mailto:juellecc@gmail.com">Juellecc@gmail.com</a>.
-            </p>
-        </div>
-    </section>
+        <section id="Blank_2">
+            <div class="center-text">
+            </div>
+        </section>
 
+        <section id="coursework">
+            <div class="center-text">
+                <h2></h2>
+                <ul>
+                    <li><img src="me3.jpg" alt=""></li>
+                    <li>On this website you will be able to look at different projects im working on</li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+        <form action="" method="post"></form>
+        <section id="form">
+            <div class="center-text">
+                <h2>Contact form</h2>
+                <p>This is a little contact form ive made but if you want me to contact you sooner i recommend doing it
+                    on more than one Social Media by clicking the links below</p>
+                <form action="process_form.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" class="form-control" required><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="form-control" required><br>
+                    <label for="Phone Number">Phone Number</label>
+                    <input type="number" id="phoneNumber" name="phoneNumber" class="form-control" required><br>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" class="form-control" required></textarea><br>
+                  <input type="submit" value="Submit">
+                </form>
+            </div>
+        </section>
+        <section id="Blank_3">
+            <div class="center-text">
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="foot">
-        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-        <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
-        <form action="/search" method="get">
-        <label for="search">Search:</label>
-        <input type="text" id="search" name="q" placeholder="Enter your text here">
-        <button type="submit" class="btn btn-danger">Search</button>
-            <a href="https://insideranken.org/ics" target="_blank"><img src="rankenimg.jpeg" alt="mySchool"></a>
-    </form>
-    </div>
+            <a href="mailto:your.email@example.com"><i class="fas fa-envelope"></i></a>
+            <form action="/search" method="get">
+                <label for="search">Search:</label>
+                <input type="text" id="search" name="q" placeholder="Enter your text here">
+                <button type="submit" class="btn btn-danger">Search</button>
+                <a href="contact.html"><img src="facebookFA.jpeg.png" alt="facebook"></a>
+                <a href="contact.html"><img src="xFA.jpeg.png" alt="usedtobetwitter"></a>
+                <a href="contact.html"><img src="youtubeFA.jpeg.png" alt="youtube"></a>
+                <a href="contact.html"><img src="instagramFA.jpeg.png" alt="instagram"></a>
+                <a href="index.html"><img src="homePage.jpeg.png" alt="Home"></a>
+
+            </form>
+        </div>
     </footer>
 
     <!-- Bootstrap JS and Popper.js -->
@@ -98,6 +169,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
         integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
+    <script src="index.js"></script>
 </body>
 
 </html>
