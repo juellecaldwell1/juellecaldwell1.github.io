@@ -35,6 +35,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
             <li class="nav-item"><a class="nav-link" href="aboutme.html">About Me</a></li>
             <li class="nav-item"><a class="nav-link" href="portfolio.html">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="resume.html">Resume</a></li>
@@ -51,7 +52,7 @@
     </div>
     <aside class="right-sidebar">
       <img src="webdevpic.jpeg" alt="Your Image">
-      <a href="#about">Abou</a>
+      <a href="#about">About</a>
       <a href="#achievements">Achievements</a>
       <a href="#ViewProjects">View Projects</a>
       <a href="#coursework">Coursework</a>
@@ -61,25 +62,64 @@
   </header>
   <main>
     <div class="sidenav">
-      <img src="fpfpic.jpg" alt="Me">
-      <h2>Location:</h2>
-      <h4>About Me Page</h4>
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="First slide"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+          <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img src="caroimg1.jpg" class="w-100 d-block" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img src="caroimg2.jpg" class="w-100 d-block" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img src="caroimg3.jpg" class="w-100 d-block" alt="Third slide">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+        <h2>Location:</h2>
+        <h2>About Me Page</h2>
+      </div>
     </div>
 
     <section id="about">
       <div class="center-text">
-    <h1>About Me</h1>
+        <h1>About Me</h1>
       </div>
     </section>
 
     <section id="achievements">
       <div class="center-text">
-
+        <h2>Hello and Welcome to my about me page where i will be talking about all my habits and hobbies</h2>
       </div>
     </section>
 
     <section id="Blank_1">
       <div class="center-text">
+        <img src="theanimeworld.jpeg" alt="theanimeworld">
+        <h3>How Anime got me into coding</h3>
+        <p>
+          I remember watching ghost in a shell and steinsGate they really inspired me to pick this up
+          Immersing myself in the captivating world of anime has become a cherished part of my daily routine. From the
+          intricate storytelling to the beautifully animated landscapes, each series is a portal into unique narratives
+          that evoke a range of emotions. Whether I am engrossed in the adventures of determined protagonists or
+          pondering the profound themes explored in thought-provoking anime, the medium provides a refreshing escape and
+          a source of inspiration. The vibrant characters, imaginative plots, and diverse genres contribute to an
+          enriching viewing experience that not only entertains but also sparks contemplation on the intricacies of
+          human nature and the boundless possibilities of storytelling. Anime, for me, is more than just a form of
+          entertainment; it's a cultural journey and a gateway to a world where imagination knows no bounds.
+        </p>
       </div>
     </section>
 
@@ -91,6 +131,17 @@
 
     <section id="Blank_2">
       <div class="center-text">
+        <img src="codingpictureaforaboutme.jpeg" alt="coding">
+        <h2>How coding feels for me</h2>
+        <p>
+          Navigating the realm of coding presents itself as a dual experience, one that seamlessly blends simplicity
+          with complexity. The perpetual need to reference resources and the adage that "Google is your best friend"
+          resonate profoundly with my coding journey. I find great satisfaction in this process, recognizing the
+          invaluable role of continuous learning in my endeavors. My enthusiasm for delving into coding extends beyond
+          mere proficiency; it fuels my ambition to craft sophisticated websites and engage in modding activities using
+          a repertoire of versatile coding languages. This ongoing pursuit reflects my commitment to mastering the
+          intricacies of coding and leveraging its potential to create innovative digital solutions.
+        </p>
       </div>
     </section>
 
@@ -100,7 +151,6 @@
     </section>
 
     <div class="center-text">
-
 
     </div>
     </section>

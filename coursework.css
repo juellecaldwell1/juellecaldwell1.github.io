@@ -24,7 +24,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-image: url("me.jpg");
+  background-image: url();
   background-size: cover;
   background-position: center;
   color: yellow;
@@ -119,13 +119,6 @@ img {
   border-radius: 50%;
 }
 
-.custom-header {
-  background-image: url(https://wallpapers.com/images/hd/red-space-3840-x-2160-fs0zh84roplzndp9.jpg);
-  color: white;
-  padding: 20px;
-  background-size: cover;
-}
-
 .navbar-light .navbar-nav .nav-link {
   color: white !important;
   font-family: "YourFont";
@@ -209,8 +202,11 @@ img {
 text-align: center;
 }
 .custom-head {
-  background-image: url(https://wallpapercave.com/wp/wp6809907.jpg);
-  color: white;
+  background-image: url("redwebheaderpicture.jpg");
+color: white;
   padding: 20px;
   background-size: cover;
 }
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
+.mySlides {display: none}
+
