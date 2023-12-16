@@ -123,100 +123,12 @@ img {
   color: white !important;
   font-family: "YourFont";
 }
-
-@media screen and (max-height: 4500px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
-.sidenav {
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  background-color: black;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  font-size: 25px;
-  color: white;
-  display: block;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.main {
-  margin-left: 160px;
-  font-size: 28px;
-  padding: 0px 10px;
-}
-.sidenav img {
-  border-radius: 0;
-  width: 180px;
-  height: 200px;
-}
-.foot {
-  display: flex;
-  justify-content: space-between;
-}
-.right-sidebar {
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  right: 0;
-  top: 0;
-  background-color: black;
-  overflow-x: hidden;
-  padding-top: 20px;
-}
-
-.right-sidebar a {
-  padding: 6px 8px 6px 16px;
-  font-size: 16px;
-  color: white;
-  display: block;
-  text-decoration: none;
-
-}
-
-.right-sidebar a:hover {
-  color: #f1f1f1;
-}
-.right-sidebar img{
-  border-radius: 0;
-}
-.sidenav h4  {
-  text-align: center;
-}
-.sidenav h2{
-text-align: center;
+.self img{
+border-radius: 0;
 }
 .custom-head {
   background-image: url("redwebheaderpicture.jpg");
 color: white;
   padding: 20px;
   background-size: cover;
-}
-body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", Arial, Helvetica, sans-serif}
-.mySlides {display: none}
-.contain img{
-border-radius: 0;
-
-}
-main{
-  background-color: grey;
-  color: black;
-}
-main p{
-  color: black;
 }
