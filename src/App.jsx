@@ -15,7 +15,19 @@ function App() {
     <div className="bg-site bg-no-repeat bg-cover overflow-hidden">
       <Navbar />
         
-      
+      <Routes>
+        <Route path="/" element={<div>
+          <Header />
+          <Banner />
+          <About />
+          <Services />
+          <Work />
+          <Contact />
+        </div>}>
+        </Route>
+        <Route path="/resume" element={<Resume />} />
+        <Route path="*" element={<Fourofour />} />
+      </Routes>
 
       {/* <div className='h-[4000px]'></div>  */}
     </div>
