@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Juelle-Caldwell/static/css/main.7bfeb754.css",
+    "main.js": "/Juelle-Caldwell/static/js/main.95a12292.js",
+    "static/media/034440319386.jpg": "/Juelle-Caldwell/static/media/034440319386.4aeba8c8512aaf8e8130.jpg",
+    "static/media/file.png": "/Juelle-Caldwell/static/media/file.23729cae166068e96344.png",
+    "static/media/juelleGrad.png": "/Juelle-Caldwell/static/media/juelleGrad.d2f16de1a807636b4072.png",
+    "static/media/buinesslogo.jpg-removebg-preview.png": "/Juelle-Caldwell/static/media/buinesslogo.jpg-removebg-preview.bd6c6f9c649c29a782c5.png",
+    "static/media/404.png": "/Juelle-Caldwell/static/media/404.c181c3937ea3b29db5a0.png",
+    "static/media/custom-logo.png": "/Juelle-Caldwell/static/media/custom-logo.a684fa5ff6bad8fd8e7a.png",
+    "static/media/logo.svg": "/Juelle-Caldwell/static/media/logo.1ed738f9eb92c6c36939bc033726e44c.svg",
+    "index.html": "/Juelle-Caldwell/index.html",
+    "main.7bfeb754.css.map": "/Juelle-Caldwell/static/css/main.7bfeb754.css.map",
+    "main.95a12292.js.map": "/Juelle-Caldwell/static/js/main.95a12292.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bfeb754.css",
+    "static/js/main.95a12292.js"
+  ]
+}
