@@ -26,7 +26,7 @@ function App() {
         </div>}>
         </Route>
         <Route path="/resume" element={<Resume />} />
-        <Route path="*" element={<Fourofour />} />
+        <Route path="*" element={<Resume />} />
       </Routes>
 
       {/* <div className='h-[4000px]'></div>  */}
