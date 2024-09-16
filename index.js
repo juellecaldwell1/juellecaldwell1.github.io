@@ -1,3 +1,4 @@
+/*
 document.addEventListener("DOMContentLoaded", function () {
   const links = document.querySelectorAll(".sidenav a");
 
@@ -35,3 +36,5 @@ function submitForm() {
   // Prevent default form submission
   event.preventDefault();
 }
+*/
+console.log('Hello World');
