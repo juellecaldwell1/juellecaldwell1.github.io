@@ -2,7 +2,7 @@
   "name": "juellesportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://juellecaldwell1.github.io/Juelle-Caldwell/",
+  "homepage": "https://juellecaldwell1.github.io",
   "dependencies": {
     "@headlessui/react": "^2.1.4",
     "@testing-library/jest-dom": "^5.17.0",
