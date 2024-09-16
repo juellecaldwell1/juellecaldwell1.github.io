@@ -1,4 +1,3 @@
-import image from "../assets/avatar.svg";
 import { FaYoutube, FaGithub, FaDribbble } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";

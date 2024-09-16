@@ -2,6 +2,7 @@
   "name": "juellesportfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://juellecaldwell1.github.io/Juelle-Caldwell/",
   "dependencies": {
     "@headlessui/react": "^2.1.4",
     "@testing-library/jest-dom": "^5.17.0",
@@ -28,7 +29,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +53,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.1.1",
     "install": "^0.13.0",
     "npm": "^10.8.3",
     "postcss": "^8.4.41",
